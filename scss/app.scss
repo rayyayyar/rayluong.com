@@ -7,29 +7,73 @@ img {
   border-radius: .26rem;
 }
 
+nav h6 {
+  margin: 0;
+  line-height: 45px;
+}
+
+.brief h6 {
+  margin-top: 6rem;
+}
+
+.cover h1 {
+  margin-top: 0;
+}
+
+h3 {
+  font-family: $font-family-serif;
+}
+
+.brief {
+  margin-bottom: 9rem;
+}
+
 .image {
   margin: 2rem 0 3rem 0;
+  position: relative;
 }
 
 .cover {
-  min-height: 50%;
+  min-height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.cover .row {
-  
-  text-align: center;
+#dp-charting .cover {
+  background: #36495B;
+  h1, h4 {
+    color: $white;
+  }
 }
 
 h6 {
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0.8rem;
+}
+
+.light-text {
+  opacity: .6;
 }
 
 .caption {
-  color: #999999;
   margin-top: 6px;
-  font-size: .8rem;
+  font-size: .9rem;
+  @extend .light-text;
+}
+
+@media #{$large-up} {
+  .caption {
+    position: absolute;
+    right: -11rem;
+    top: 0;
+    margin-top: 0;
+  }
+}
+
+footer {
+  margin: 1rem 0 6rem 0;
 }
 
 // Or selectively include components
