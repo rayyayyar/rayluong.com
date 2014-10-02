@@ -59,7 +59,7 @@ header .glass {
 }
 
 .headroom--top nav {
-    background: rgba(255,255,255,0);
+  background: rgba(255,255,255,0);
 }
 
 .headroom--top .top-bar-section li:not(.has-form) a:not(.button) {
@@ -112,14 +112,14 @@ nav h6 {
   justify-content: center;
 }
 
-#dp-charting, #dp-dashboarding, #dp-onboarding {
-   .cover {
-      background: #36495B;
-      h1, h4 {
-        color: $white;
-      }
-   }
-}
+#dp-charting .cover,
+#dp-dashboarding .cover,
+#dp-onboarding .cover {
+  background: #36495B;
+  h1, h4 {
+    color: $white;
+  }
+ }
 
 .light-text {
   opacity: .6;
