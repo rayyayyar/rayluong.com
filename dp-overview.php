@@ -1,45 +1,19 @@
-<!doctype html>
-<html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ray Luong - DataPad</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body id="dp-overview" class="project">
-    <header class="glass">
-      <nav class="top-bar small-10 small-centered columns" data-topbar role="navigation">
-        <ul class="title-area">
-          <li class="name">
-            <a href=#>
-              <h1>Ray Luong</h1>
-            </a>
-          </li>
-        </ul>
-        <section class="top-bar-section">
-          <ul class="right">
-            <li class="active"><a href=#>Work</a></li>
-            <li><a href=#>About</a></li>
-            <li><a href=#>Resume</a></li>
-          </ul>
-        </section>
-      </nav>
-    </header>
+<?php
+  $project_id = "dp-onboarding";
+  $company = "";
+  $title = "DataPad";
+  $next_project = "Blippy (2012)";
+  $next_project_address = "blippy.html";
+  $columns = "12";
+  include 'project-template.php' ?>
 
-    <div class="cover">
-      <div class="row">
-        <div class="small-8 small-centered columns">
-          <h1>DataPad</h1>
-        </div>
-      </div>
-    </div>
+<?php startblock('main') ?>
 
     <div class="row">
       <div class="small-12 small-centered column">
 
         <div class="small-12 medium-4 columns">
-          <a href="datapad-charting.html">
+          <a href="dp-charting.php">
             <div class="image overlay" data-content="Charting">
               <h6>Charting</h6>
               <img src="img/charting-solution/charting.gif">
@@ -48,7 +22,7 @@
         </div>
         
         <div class="small-12 medium-4 columns">
-          <a href="datapad-dashboarding.html">
+          <a href="dp-dashboarding.php">
             <div class="image overlay" data-content="Dashboarding">
               <h6>Dashboarding</h6>
               <img src="img/dashboarding-solution/dashboarding-edges.gif">
@@ -58,7 +32,7 @@
           
         
         <div class="small-12 medium-4 columns">
-          <a href="datapad-onboarding.html">
+          <a href="dp-onboarding.php">
             <div class="image overlay" data-content="Onboarding">
               <h6>Onboarding</h6>
               <img src="img/onboarding-solution/onboarding-responsive.gif">
@@ -89,24 +63,4 @@
     
     
     
-    <footer>
-      <div class="row">
-        <hr />
-        <a href="#">
-          <div class="small-8 small-centered columns text-right">
-            <h4>Next Project &#8594;</h4>
-            <p class="light-text">Blippy (2012)</p>
-          </div>
-        </a>
-      </div>
-      
-    </footer>
-    <div class="row text-center">
-        <small class="light-text">Made from Ray</small>
-    </div>
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
-</html>
+<?php endblock() ?>
