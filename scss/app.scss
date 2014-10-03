@@ -6,6 +6,10 @@ ul a li {
   list-style: none;
 }
 
+.projects h1, .projects h4 {
+  margin-top: 0;
+}
+
 h3 {
   font-family: $font-family-serif;
 }
@@ -16,9 +20,17 @@ h6 {
   margin-bottom: 0.8rem;
 }
 
+.projects a {
+  color: inherit;
+}
+
 // Custom
 
-img {
+#home .projects .row {
+  margin: 24rem 0;
+}
+
+.project img {
   box-shadow: 0px 2px 3px 2px rgba(0,0,0, 0.05);
   border: 1px solid #eee;
   border-radius: .26rem;
@@ -29,7 +41,7 @@ header {
   height: 45px;
   position: fixed;
   top: 0;
-  transition: top 0.2s;
+  transition: top 0.2s, background-color 300ms linear;
   width: 100%;
 }
 
@@ -54,7 +66,7 @@ header .glass {
 .headroom--top {
   background-color: rgba(255,255,255,0);
   opacity: .65;
-  transition: opacity 300ms linear;
+  transition: opacity 300ms linear, box-shadow 400ms linear, background-color 300ms linear;
   &:hover {
     opacity: 1.0;
   }
@@ -65,20 +77,20 @@ header .glass {
 }
 
 .headroom--top nav {
-  background: rgba(255,255,255,0);
+  background-color: rgba(255,255,255,0);
 }
 
 .dark-cover .headroom--top .top-bar-section li:not(.has-form) a:not(.button) {
-  background: rgba(255,255,255,0);
+  
   color: $white;
 }
 
 .headroom--top .top-bar-section ul li {
-  background: rgba(255,255,255,0);
+  background-color: rgba(255,255,255,0);
 }
 
 .top-bar-section li.active:not(.has-form) a:not(.button) {
-  background: $primary-color;
+  background-color: $primary-color;
 }
 
 .dark-cover .headroom--top nav h1 {
@@ -106,7 +118,7 @@ nav h6 {
   margin-bottom: 9rem;
 }
 
-.image {
+.project .image {
   margin: 2rem 0 3rem 0;
   position: relative;
 }

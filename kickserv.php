@@ -70,6 +70,6 @@
           <img src="img/kickserv/kickserv-anim.gif">
         </div>
       </div>
-
+    </section>
 
 <?php endblock() ?>

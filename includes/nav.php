@@ -2,7 +2,7 @@
   <nav class="top-bar small-10 small-centered columns" data-topbar role="navigation">
     <ul class="title-area">
       <li class="name">
-        <a href="index.html">
+        <a href="index.php">
           <h1>Ray Luong</h1>
         </a>
       </li>
@@ -10,7 +10,7 @@
     <section class="top-bar-section">
       <ul class="right">
         <li class="active"><a href="index.html">Work</a></li>
-        <li><a href="http://rayluong.com/RayLuong-Resume.pdf">Resume</a></li>
+        <li><a href="docs/RayLuong-Resume.pdf">Resume</a></li>
       </ul>
     </section>
   </nav>
