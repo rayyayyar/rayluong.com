@@ -39,11 +39,12 @@ header .glass {
 
 .headroom {
   transition: transform 400ms ease-out, background-color 500ms ease-out;
+  z-index: 3;
 }
 
 .headroom--pinned {
   transform: translateY(0%);
-  z-index: 3;
+  
 }
 
 .headroom--unpinned {
@@ -52,6 +53,11 @@ header .glass {
 
 .headroom--top {
   background-color: rgba(255,255,255,0);
+  opacity: .65;
+  transition: opacity 300ms linear;
+  &:hover {
+    opacity: 1.0;
+  }
 }
 
 .headroom--not-top {
@@ -62,7 +68,7 @@ header .glass {
   background: rgba(255,255,255,0);
 }
 
-.headroom--top .top-bar-section li:not(.has-form) a:not(.button) {
+.dark-cover .headroom--top .top-bar-section li:not(.has-form) a:not(.button) {
   background: rgba(255,255,255,0);
   color: $white;
 }
@@ -75,7 +81,7 @@ header .glass {
   background: $primary-color;
 }
 
-.headroom--top nav h1 {
+.dark-cover .headroom--top nav h1 {
   color: $white;
 }
 

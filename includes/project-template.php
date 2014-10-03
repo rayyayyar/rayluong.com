@@ -1,7 +1,7 @@
-<?php require_once 'includes/ti.php' ?>
-<?php include('includes/head.php'); ?>
-  <body id="<?php echo $project_id ?>" class="<?php echo $cover_style ?> project">
-    <?php include('includes/nav.php'); ?>
+<?php require_once 'ti.php' ?>
+<?php include('head.php'); ?>
+  <body id="<?php echo $project_id ?>" class="project">
+    <?php include('nav.php'); ?>
 
     <div class="cover">
       <div class="row">
@@ -31,6 +31,6 @@
       </div>
     </footer>
 <?php
-  include('includes/scripts.php');
-  include('includes/footer.php');
+  include('scripts.php');
+  include('footer.php');
 ?>
