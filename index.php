@@ -5,8 +5,7 @@
 		<div class="cover">
 		  <div class="row">
 		    <div class="small-8 small-centered columns">
-		      <h1>Hi, I'm Ray</h1>
-		      <h2>I'm an interaction designer living SF.</h2>
+		      <h2><span id="typed"></span><span class="hide light-text">    &#8595;</span></h2>
 		    </div>
 		  </div>
 		</div>
@@ -18,6 +17,7 @@
 	        <p class="text-justify">But seriously, I believe there's much more to design than just soft corners and flat aesthetics. As our world becomes more digital, we have increasingly more opportunity to design products that enhance the human experience. I love to build experiences that people fall in love with. For that to happen, I've learned just how important it is to truly understand who and what you are designing for.</p>
 	      </div>
 			</div>
+
 		</section>
 		<section class="projects row">
 			<div class="small-12 columns">
@@ -31,7 +31,6 @@
 							<h1>DataPad</h1>
 							<p>DataPad was a web app designed for teams to integrate, refine, analyze, explore, and share data. I led design efforts for all key features.</p>
 						</div>
-						
 					</a>
 				</div>
 
