@@ -215,8 +215,7 @@ nav h6 {
 }
 
 
-.image.overlay h6 {
-  color: $white;
+.image.overlay .text {
   z-index: 2;
   position: absolute;
   bottom: 40%;
@@ -224,7 +223,11 @@ nav h6 {
   text-align: center;
 }
 
-.image.overlay:hover h6 {
+.image.overlay .text h6, .image.overlay .text p {
+  color: $white;
+}
+
+.image.overlay:hover h6, .image.overlay:hover p {
   opacity: 0;
 }
 

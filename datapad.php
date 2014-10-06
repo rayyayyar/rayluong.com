@@ -32,7 +32,10 @@
         <div class="small-12 medium-8 small-centered columns">
           <a href="datapad-charting">
             <div class="image overlay" data-content="Charting">
-              <h6>Charting</h6>
+              <div class="text">
+                <h6>Charting</h6>
+                <p class="light-text"><em>View Project</em></p>
+              </div>
               <img src="img/charting-solution/charting.gif">
             </div>
           </a>
@@ -41,7 +44,10 @@
         <div class="small-12 medium-8 small-centered columns">
           <a href="datapad-dashboarding">
             <div class="image overlay" data-content="Dashboarding">
-              <h6>Dashboarding</h6>
+              <div class="text">
+                <h6>Dashboarding</h6>
+                <p class="light-text"><em>View Project</em></p>
+              </div>
               <img src="img/dashboarding-solution/dashboarding-edges.gif">
             </div>
           </a>
@@ -50,7 +56,10 @@
         <div class="small-12 medium-8 small-centered columns">
           <a href="datapad-onboarding">
             <div class="image overlay" data-content="Onboarding">
-              <h6>Onboarding</h6>
+              <div class="text">
+                <h6>Onboarding</h6>
+                <p class="light-text"><em>View Project</em></p>
+              </div>
               <img src="img/onboarding-solution/onboarding-responsive.gif">
             </div>
           </a>
