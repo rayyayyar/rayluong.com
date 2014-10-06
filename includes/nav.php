@@ -2,14 +2,14 @@
   <nav class="top-bar small-10 small-centered columns" data-topbar role="navigation">
     <ul class="title-area">
       <li class="name">
-        <a href="index.php">
+        <a href="/">
           <h1>Ray Luong</h1>
         </a>
       </li>
     </ul>
     <section class="top-bar-section">
       <ul class="right">
-        <li class="active"><a href="index.html">Work</a></li>
+        <li class="active"><a href="/">Work</a></li>
         <li><a href="docs/RayLuong-Resume.pdf">Resume</a></li>
       </ul>
     </section>

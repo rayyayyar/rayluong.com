@@ -3,7 +3,7 @@
   $company = "Crankapps";
   $title = "Kickserv";
   $next_project = "Thinkspace";
-  $next_project_address = "thinkspace.php";
+  $next_project_address = "thinkspace";
   $columns = "8";
   include 'project-template.php' ?>
 

@@ -23,7 +23,7 @@
 			<div class="small-12 columns">
 
 				<div class="row">
-					<a href="dp-overview.php">
+					<a href="datapad">
 						<div class="small-12 medium-push-5 medium-6 medium-offset-1 column">
 							<img src="img/home/datapad.png">
 						</div>
@@ -35,7 +35,7 @@
 				</div>
 
 				<div class="row">
-					<a href="blippy.php">
+					<a href="blippy">
 						<div class="small-12 medium-6 column">
 							<img src="img/home/blippy-screen.png">
 						</div>
@@ -47,19 +47,7 @@
 				</div>
 
 				<div class="row">
-					<a href="kickserv.php">
-						<div class="small-12 medium-6 column">
-							<img src="img/home/kickserv.png">
-						</div>
-						<div class="small-12 medium-5 small-offset-1 column">
-							<h1>Kickserv</h1>
-							<p>Kickserv is a SaaS web application built to help service companies manage sales and operations more efficiently. I worked with the team to prioritize features, create mock-ups, and design brand new interactions.</p>
-						</div>
-					</a>
-				</div>
-
-				<div class="row">
-					<a href="thinkspace.php">
+					<a href="thinkspace">
 						<div class="small-12 medium-push-5 medium-6 medium-offset-1 column">
 							<img src="img/home/thinkspace.png">
 						</div>
@@ -71,7 +59,7 @@
 				</div>
 
 				<div class="row">
-					<a href="ageofwaste.php">
+					<a href="ageofwaste">
 						<div class="small-12 medium-6 column">
 							<img src="img/home/ageofwaste-cropped.png">
 						</div>

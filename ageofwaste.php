@@ -3,7 +3,7 @@
   $company = "Illustration";
   $title = "Age of Waste";
   $next_project = "DataPad";
-  $next_project_address = "dp-overview.php";
+  $next_project_address = "datapad";
   $columns = "8";
   include 'project-template.php' ?>
 
@@ -21,7 +21,9 @@
     <section class="solution">
       <div class="row">
         <div class="image column">
-          <img src="img/ageofwaste/ageofwaste.png">
+          <a href="img/ageofwaste/ageofwaste.png">
+            <img src="img/ageofwaste/ageofwaste.png">
+          </a>
         </div>
       </div>
     </section>
