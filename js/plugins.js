@@ -19,7 +19,7 @@ $(document).ready(function() {
 		    "name's ^1000 Ray.",
 		    "...doin' mostly ^200 Interaction Design in San Francisco these days."],
 		    typeSpeed: 50,
-		    backDelay: 1300,
+		    backDelay: 700,
 		    backSpeed: 80,
 		    loop: false,
 		    // defaults to false for infinite loop
