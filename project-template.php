@@ -6,7 +6,9 @@
     <div class="cover">
       <div class="row">
         <div class="small-8 small-centered columns">
-          <h4 class="light-text"><?php echo $company ?></h4>
+          <a href="<?php echo $company_link ?>">
+            <h4 class="light-text"><?php echo $company ?></h4>
+          </a>
           <h1><?php echo $title ?></h1>
         </div>
       </div>
