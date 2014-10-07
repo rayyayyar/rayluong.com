@@ -41,7 +41,7 @@
 						</div>
 						<div class="image small-12 medium-5 small-offset-1 column">
 							<h1>Blippy Video</h1>
-							<p>Blippy existed as a short-lived web experiment for online video. It allowed people to create their own communities of video and video-watchers. I joined the team in August 2012 to lead all design efforts (UX, visual, research, interaction). It currently continues to live on the web with regular activity.</p>
+							<p>Blippy existed as a short-lived web experiment for online video. It allowed people to create their own communities of video and video-watchers. I joined the team in August 2012 to lead all design efforts (UX, visual, research, interaction).</p>
 						</div>
 					</a>
 				</div>

@@ -24,7 +24,7 @@
         <p>October 2013 - October 2014</p>
       </div>
     </div>
-    
+
     <div class="row">
       <div class="small-12 small-centered column">
         <hr class="buffer" />
