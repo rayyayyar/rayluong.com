@@ -41,4 +41,8 @@ $(document).ready(function() {
 		$(this).find('a').fadeIn('slow');
 	}, { offset: '60%' });
 
+// FLUIDBOX
+	$('a').fluidbox();
+	console.log('fluidbox');
+
 });
