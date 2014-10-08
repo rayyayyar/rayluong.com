@@ -2,3 +2,6 @@
 /.sass-cache/*
 *.DS_Store
 /stylesheets/*
+.git.bfg-report/
+bfg.jar
+npm-debug.log
