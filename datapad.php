@@ -34,7 +34,7 @@
             <div class="image overlay" data-content="Charting">
               <div class="text">
                 <h6>Charting</h6>
-                <p class="light-text"><em>View Project</em></p>
+                <span class="button tiny radius round">View Project</span>
               </div>
               <img src="img/charting-solution/charting.gif">
             </div>
@@ -46,7 +46,7 @@
             <div class="image overlay" data-content="Dashboarding">
               <div class="text">
                 <h6>Dashboarding</h6>
-                <p class="light-text"><em>View Project</em></p>
+                <span class="button tiny radius round">View Project</span>
               </div>
               <img src="img/dashboarding-solution/dashboarding-edges.gif">
             </div>
@@ -58,7 +58,7 @@
             <div class="image overlay" data-content="Onboarding">
               <div class="text">
                 <h6>Onboarding</h6>
-                <p class="light-text"><em>View Project</em></p>
+                <span class="button tiny radius round">View Project</span>
               </div>
               <img src="img/onboarding-solution/onboarding-responsive.gif">
             </div>
