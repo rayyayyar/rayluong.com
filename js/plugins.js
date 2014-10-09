@@ -42,6 +42,13 @@ $(document).ready(function() {
 	}, { offset: '60%' });
 
 // FLUIDBOX
-	$('a').fluidbox();
-
+	$('a').fluidbox( {
+			// Close modal on scroll
+			closeTrigger: [
+			    {
+			        selector: 'window',
+			        event: 'scroll',
+			    }
+			]
+	});
 });
