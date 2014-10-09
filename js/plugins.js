@@ -43,6 +43,5 @@ $(document).ready(function() {
 
 // FLUIDBOX
 	$('a').fluidbox();
-	console.log('fluidbox');
 
 });
