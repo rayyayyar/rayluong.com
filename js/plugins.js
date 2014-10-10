@@ -14,8 +14,7 @@ $(document).ready(function() {
 
 	$("#typed").typed({
 	    strings: [
-	    "Oh hi.",
-	    "hello there.",
+	    "Oh^1400 hello there.",
 	    "name's ^1000 Ray.",
 	    "...doin' mostly ^200 Interaction Design in San Francisco these days."],
 	    typeSpeed: 50,
