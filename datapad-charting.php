@@ -46,7 +46,7 @@
       <p>Before I put my hands into the product, the team had a rough prototype built — a "pipeline to the backend" as I recall our CEO, <a href="https://twitter.com/wesmckinn">Wes</a>, humbly describing it.</p>
       <div class="row">
         <div class="image column">
-          <img src="img/charting-old/charting-it-01.png" />
+          <a href="img/charting-old/charting-it-01.png" data-fluidbox><img src="img/charting-old/charting-it-01.png" alt="" title="" /></a>
           <div class="caption large-3"><strong>Very early charting UI concept (sans design)</strong>.</div>
         </div>
       </div>
@@ -60,7 +60,7 @@
 
       <div class="row">
         <div class="image column">
-          <img src="img/charting-old/charting-it-03.png">
+          <a href="img/charting-old/charting-it-03.png" data-fluidbox><img src="img/charting-old/charting-it-03.png" alt="" title="" /></a>
           <div class="caption large-3"><strong>Another early prototype</strong>. This was a step forward, but still not explicit enough. It was hard to predict how data would be mapped onto a chart.</div>
         </div>
       </div>
@@ -87,35 +87,35 @@
   -->
       <div class="row">
         <div class="image column">
-          <img src="img/charting-iterations/charting-wip-02-more.png">
+          <a href="img/charting-iterations/charting-wip-02-more.png" data-fluidbox><img src="img/charting-iterations/charting-wip-02-more.png" alt="" title="" ></a>
           <div class="caption large-3"><strong>Early mock</strong>. I'd removed some elements and simplified others to see how it would compare to the early prototype. Here, chart types are represented by icons, the chart canvas background is white for greater contrast, and the dropdown to select a dataset is removed. I moved on from this to explore more drastic interaction design differences from our initial prototype.</div>
         </div>
       </div>
 
       <div class="row">
         <div class="image column">
-          <img src="img/charting-iterations/charting-pivot.gif">
+          <a href="img/charting-iterations/charting-pivot.gif" data-fluidbox><img src="img/charting-iterations/charting-pivot.gif" alt="" title="" ></a>
           <div class="caption large-3"><strong>The Pivot Table Concept</strong> borrowed visualization principles from Tableau. This was a strong candidate for design since it's explicit, predictable, and flexible, but proved too ambitious for our development timeline. </div>
         </div>
       </div>
 
       <div class="row">
         <div class="image column">
-          <img src="img/charting-iterations/charting-wip-pivot-heatmap.png">
+          <a href="img/charting-iterations/charting-wip-pivot-heatmap.png" data-fluidbox><img src="img/charting-iterations/charting-wip-pivot-heatmap.png" alt="" title=""></a>
           <div class="caption large-3"><strong>Pivot Table Heatmap</strong>. This variation on the pivot table shows a different layout and a heatmap showing amount of contribution across cities.</div>
         </div>
       </div>
 
       <div class="row">
         <div class="image column">
-        <img src="img/charting-sketches/charting-sketch-00.jpg">
+        <a href="img/charting-sketches/charting-sketch-00.jpg" data-fluidbox><img src="img/charting-sketches/charting-sketch-00.jpg" alt="" title="" /></a>
         <div class="caption large-3"><strong>Tooltips for Chart Types</strong>. Early sketches exploring the concept of chart type tooltips to explain when to use each type and what's needed (e.g. one dimension and one measure) to generate each type. While the team felt this was useful, it unfortunately did not find a place in our development timeline.</div>
         </div>
       </div>
 
       <div class="row">
         <div class="image column">
-        <img src="img/charting-iterations/charting-wip-03-fieldssidebar.png">
+        <a href="img/charting-iterations/charting-wip-03-fieldssidebar.png" data-fluidbox<img src="img/charting-iterations/charting-wip-03-fieldssidebar.png" alt="" title="" /></a>
         <div class="caption large-3"><strong>A close mock-up to the final</strong>. Aside from visual details — mainly the floating X and Y inputs — this was a close iteration to the final design. I decided to move filters to the sidebar to place more emphasis on the chart and to allow better alignment filters when they are added.</div>
         </div>
       </div>
@@ -126,14 +126,14 @@
 
       <div class="row">
         <div class="image column">
-        <img src="img/charting-sketches/charting-menu-sketch-00.jpg">
+        <a href="img/charting-sketches/charting-menu-sketch-00.jpg" data-fluidbox><img src="img/charting-sketches/charting-menu-sketch-00.jpg" alt="" title="" /></a>
         <div class="caption large-3"><strong>Microinteraction sketches of the token menu</strong>. These sketches of the "token menu" explore ways to allow the user to set a token to either a dimension or a measure.</div>
         </div>
       </div>
 
       <div class="row">
         <div class="image column">
-        <img src="img/charting-sketches/charting-menu-sketch-02.jpg">
+        <a href="img/charting-sketches/charting-menu-sketch-02.jpg" data-fluidbox><img src="img/charting-sketches/charting-menu-sketch-02.jpg" alt="" title="" /></a>
         </div>
       </div>
 

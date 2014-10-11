@@ -28,7 +28,7 @@
 
           <div class="row">
             <div class="image column">
-              <img src="img/dashboarding-solution/Dashboard%20medium.png">
+              <a href="img/dashboarding-solution/Dashboard%20medium.png" data-fluidbox><img src="img/dashboarding-solution/Dashboard%20medium.png" alt="" title="" /></a>
               <div class="caption large-3"><strong>Viewing a SaaS Dashboard</strong>. A completed dashboard in view mode allows for filtering and device-type preview.</div>
             </div>
           </div>
@@ -40,7 +40,7 @@
           <h3>The Initial Prototype Used Preset Layout Templates</h3>
           <div class="row">
             <div class="image column">
-              <img src="img/dashboarding-iterations/dashboarding-old.gif">
+              <a href="img/dashboarding-iterations/dashboarding-old.gif" data-fluidbox><img src="img/dashboarding-iterations/dashboarding-old.gif" alt="" title="" /></a>
               <div class="caption large-3"><strong>Initial Prototype (sans design) Using Preset Layout Templates</strong>. While somewhat usable, it was unpredictable how charts would be rearranged when the layout type changed.</div>
             </div>
           </div>
@@ -55,7 +55,7 @@
           <h3>The "Canvas Grid" Concept Affords Better Resizing</h3>
           <div class="row">
             <div class="image column">
-              <img src="img/dashboarding-solution/dashboarding-canvas.gif">
+              <a href="img/dashboarding-solution/dashboarding-canvas.gif" data-fluidbox><img src="img/dashboarding-solution/dashboarding-canvas.gif" alt="" title=""></a>
               <div class="caption large-3"><strong>The "Canvas Grid" Dashboard</strong>. While extremely flexible and easy to understand, this would place much more burden on the user to move and resize panes to create useful dashboard layouts.</div>
             </div>
           </div>
@@ -65,7 +65,7 @@
           <h3>The "Edges" Concept Uses a Docking Model</h3>
           <div class="row">
             <div class="image column">
-              <img src="img/dashboarding-solution/dashboarding-edges.gif">
+              <a href="img/dashboarding-solution/dashboarding-edges.gif" data-fluidbox><img src="img/dashboarding-solution/dashboarding-edges.gif" alt="" title="" /></a>
               <div class="caption large-3"><strong>The "Edges" Docking Model Dashboard</strong>. A docking model would help users quickly create layouts without having to manually move and resize.</div>
             </div>
           </div>
@@ -87,13 +87,13 @@
           <h3>Early Sketches</h3>
           <div class="row">
             <div class="image column">
-              <img src="img/dashboarding-sketches/dashboard-creation.jpg">
+              <a href="img/dashboarding-sketches/dashboard-creation.jpg" data-fluidbox><img src="img/dashboarding-sketches/dashboard-creation.jpg" alt="" title=""></a>
               <div class="caption large-3"><strong>Sidebar tray of analyses</strong>. Early sketches exploring drag and drop to create dashboards versus using dropdowns.</div>
             </div>
           </div>
           <div class="row">
             <div class="image column">
-              <img src="img/dashboarding-sketches/dashboard-publishing.jpg">
+              <a href="img/dashboarding-sketches/dashboard-publishing.jpg" data-fluidbox><img src="img/dashboarding-sketches/dashboard-publishing.jpg" alt="" title=""></a>
               <div class="caption large-3"><strong>Managing dashboards in a project</strong></div>
             </div>
           </div>
