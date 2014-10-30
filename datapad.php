@@ -28,7 +28,7 @@
     <div class="row">
       <div class="small-12 small-centered column">
         <hr class="buffer" />
-        <h2 class="text-center">Selected Work</h2>
+        <h2 class="text-center">Selected Projects</h2>
         <div class="small-12 medium-8 small-centered columns">
           <a href="datapad-charting">
             <div class="image overlay" data-content="Charting">
