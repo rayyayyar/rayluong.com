@@ -5,9 +5,10 @@
 		<div class="cover">
 		  <div class="row">
 		    <div class="small-8 small-centered columns">
-		      <h2><span id="typed"></span><span class="hide light-text">    &#8595;</span></h2>
+		      <h2><span id="typed"></span></h2>
 		    </div>
 		  </div>
+		  <h4 class="text-center down-arrow">&#x022C1;</h4>
 		</div>
 
 		<section>

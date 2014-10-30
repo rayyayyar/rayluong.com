@@ -29,6 +29,13 @@ h6 {
 }
 // Custom
 
+.down-arrow {
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
 #home .projects .row {
   margin: 24rem 0;
 }
@@ -128,9 +135,7 @@ nav h6 {
 
 .cover {
   min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 20%;
 }
 
 #dp-charting .cover,
@@ -276,6 +281,17 @@ footer {
     50% { opacity:0; }
     100% { opacity:1; }
 }
+
+// Alignment Classes
+
+%vertical-align {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 
 // Or selectively include components
 // @import

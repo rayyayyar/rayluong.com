@@ -14,16 +14,17 @@ $(document).ready(function() {
 
 	$("#typed").typed({
 	    strings: [
-	    "Oh^1400 hello there.",
-	    "name's ^1000 Ray.",
+	    
 	    "...doin' mostly ^200 Interaction Design in San Francisco these days."],
-	    typeSpeed: 50,
+	    typeSpeed: 30,
 	    backDelay: 700,
 	    backSpeed: 80,
 	    loop: false,
 	    // defaults to false for infinite loop
 	    loopCount: false,
-	    callback: function(){ $('.typed-cursor').fadeOut('fast'); $('span.hide').delay(1200).fadeIn('slow'); },
+	    callback: function(){ 
+	    	$('.typed-cursor').fadeOut('fast'); 
+	    	$('h4.down-arrow').delay(1200).fadeTo('slow', 0.6); },
 	    resetCallback: function() { newTyped(); }
 	});
 
