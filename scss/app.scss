@@ -29,11 +29,15 @@ h6 {
 }
 // Custom
 
-.down-arrow {
+#home .down-arrow {
   opacity: 0;
+}
+
+.down-arrow {
   position: absolute;
   bottom: 0;
   left: 50%;
+  -webkit-animation: bounceInDown 1.6s infinite;
 }
 
 #home .projects .row {
@@ -292,6 +296,30 @@ footer {
   transform: translateY(-50%);
 }
 
+
+// Animation
+
+@-webkit-keyframes bounceInDown {
+  0%, 50%, 100% {
+    transition-timing-function: ease-in-out;
+  }
+
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(0, 12px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.bounceInDown {
+  animation-name: bounceInDown;
+}
 
 // Or selectively include components
 // @import

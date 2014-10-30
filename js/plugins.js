@@ -14,17 +14,17 @@ $(document).ready(function() {
 
 	$("#typed").typed({
 	    strings: [
-	    
-	    "...doin' mostly ^200 Interaction Design in San Francisco these days."],
-	    typeSpeed: 30,
-	    backDelay: 700,
-	    backSpeed: 80,
+	    "Hello!^400 Name's Ray. ^1000",
+	    "I'm a designer in San Francisco today. ^1000 Come to see my work?"],
+	    typeSpeed: 20,
+	    backDelay: 100,
+	    backSpeed: 30,
 	    loop: false,
 	    // defaults to false for infinite loop
 	    loopCount: false,
 	    callback: function(){ 
 	    	$('.typed-cursor').fadeOut('fast'); 
-	    	$('h4.down-arrow').delay(1200).fadeTo('slow', 0.6); },
+	    	$('h4.down-arrow').delay(800).fadeTo('slow', 0.6); },
 	    resetCallback: function() { newTyped(); }
 	});
 
@@ -40,6 +40,10 @@ $(document).ready(function() {
 	$('.projects .row').waypoint(function(direction) { 
 		$(this).find('a').fadeIn('slow');
 	}, { offset: '60%' });
+
+	$('.main-content').waypoint(function(direction) {
+		$('.cover').find('.down-arrow').fadeOut('slow');
+	}, { offset: '90%' });
 
 // FLUIDBOX
 	$('a').fluidbox( {

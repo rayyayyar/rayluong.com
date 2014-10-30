@@ -11,7 +11,7 @@
 		  <h4 class="text-center down-arrow">&#x022C1;</h4>
 		</div>
 
-		<section>
+		<section class="main-content">
 			<div class="row">
 				<div class="small-8 small-centered columns">
 					<h3 class="text-center">I've rounded 6,237 corners</h3>

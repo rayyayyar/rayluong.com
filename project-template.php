@@ -12,6 +12,7 @@
           <h1><?php echo $title ?></h1>
         </div>
       </div>
+      <h4 class="text-center down-arrow">&#x022C1;</h4>
     </div>
 
     <div class="row main-content">
