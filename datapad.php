@@ -19,7 +19,7 @@
         <h6>DataPad's Mission</h6>
         <p>Provide easy data access and integration across multiple sources, enhance collaboration in teams, and enable fast interactive exploration and analysis of data sets.</p>
         <h6>Role</h6>
-        <p>As the core of design efforts, I worked closely with the Director of Product to form the foundation for DataPad's design principles, interaction details, and key features.</p>
+        <p>As the core of design efforts, I helped form the foundation for DataPad's design principles, interaction details, and key features.</p>
         <h6>Timeline</h6>
         <p>October 2013 - October 2014</p>
       </div>
