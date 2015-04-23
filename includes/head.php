@@ -17,4 +17,18 @@
 		  ga('create', 'UA-26869700-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
+        <!-- KISSmetrics tracking snippet -->
+        <script type="text/javascript">var _kmq = _kmq || [];
+        var _kmk = _kmk || '58bce59f91efe4fa97e56795897c926b25b43a1c';
+        function _kms(u){
+          setTimeout(function(){
+            var d = document, f = d.getElementsByTagName('script')[0],
+            s = d.createElement('script');
+            s.type = 'text/javascript'; s.async = true; s.src = u;
+            f.parentNode.insertBefore(s, f);
+          }, 1);
+        }
+        _kms('//i.kissmetrics.com/i.js');
+        _kms('//doug1izaerwt3.cloudfront.net/' + _kmk + '.1.js');
+        </script>
   </head>
