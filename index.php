@@ -24,6 +24,16 @@
 			<div class="small-12 columns">
 
 				<div class="row">
+						<div class="small-12 medium-6 column">
+							<img src="img/home/inkling.png">
+						</div>
+						<div class="image small-12 medium-5 small-offset-1 column">
+							<h1>Inkling</h1>
+							<p>Currently with the product design team.</p>
+						</div>
+				</div>
+
+				<div class="row">
 					<a href="datapad">
 						<div class="small-12 medium-push-5 medium-6 medium-offset-1 column">
 							<img src="img/home/datapad.png">
