@@ -103,6 +103,13 @@
       </div>
 
     </section>
+
+    <section>
+      <h3>Conclusion</h3>
+      <p>The eventual solution for Editor emphasizes personalized teaching by consistently maintaining an individual student's profile as context for creating an activity. Initial sketches explored this with a student profile sidebar and activities suggested based on things like learning objectives, level, interests, and style.</p>
+      <p>Given more time, design could build on personalized learning even more. An example might be allowing the teacher to add metadata (e.g. this is good for visual learners) to an activity so that she may find it later for a student with a similar profile. This also provides an opportunity for the system to learn about what's good for certain profiles and later on make better suggestions for activities.</p>
+      <p>The designs don't address what happens on the student side. Depending on how the student struggles (or doesn't struggle) with the activity, the system could make note of it for the teacher to either help the student with this activity and/or iterate on the activity itself for later students.</p>
+    </section>
     
     
 <?php endblock() ?>
