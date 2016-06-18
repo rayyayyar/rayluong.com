@@ -10,6 +10,12 @@ ul a li {
   margin-top: 0;
 }
 
+h1.large-type {
+  font-size: 6rem;
+  font-weight: bold;
+  letter-spacing: -3px;
+}
+
 h3 {
   font-family: $font-family-serif;
 }
@@ -27,21 +33,31 @@ h6 {
 .buffer {
   margin: 12rem;
 }
-// Custom
 
-#home .down-arrow {
-  opacity: 0;
-}
-
-.down-arrow {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  -webkit-animation: bounceInDown 1.6s infinite;
-}
+/* ~~~~~~~~~~ HOMEPAGE */
 
 #home .projects .row {
   margin: 24rem 0;
+}
+
+#home .cover h3 {
+  font-family: $font-family-monospace;
+}
+
+#home .cover * {
+  color: white;
+}
+
+#home .cover {
+  padding: 15%;
+  position: relative;
+}
+
+#home .cover .spread {
+  margin-top: 10%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 .project img {
@@ -95,7 +111,6 @@ header .glass {
 }
 
 .dark-cover .headroom--top .top-bar-section li:not(.has-form) a:not(.button) {
-  
   color: $white;
 }
 
@@ -138,8 +153,13 @@ nav h6 {
 }
 
 .cover {
-  min-height: 100%;
+  height: 900px;
   padding-top: 20%;
+}
+
+#home .cover {
+  background: #3B3D47;
+  color: #ffffff;
 }
 
 #dp-charting .cover,

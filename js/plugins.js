@@ -14,9 +14,8 @@ $(document).ready(function() {
 
 	$("#typed").typed({
 	    strings: [
-	    "Hello!^400 Name's Ray. ^1000",
-	    "I'm a designer in San Francisco today. ^1000 Come to see my work?"],
-	    typeSpeed: 20,
+	    "I’m some guy working as a product designer in the Bay Area. ^1000 This is my story. ^600 Okay...^1000 it’s just my design portfolio."],
+	    typeSpeed: 10,
 	    backDelay: 100,
 	    backSpeed: 30,
 	    loop: false,

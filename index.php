@@ -4,25 +4,18 @@
 		<?php include('includes/nav.php'); ?>
 		<div class="cover">
 		  <div class="row">
-		    <div class="small-8 small-centered columns">
-		      <h2><span id="typed"></span></h2>
+		    <div class="small-12 columns">
+		    	<h1 class="large-type">Hi, I'm Ray</h1>
+		      <h3><span id="typed"></span></h3>
 		    </div>
 		  </div>
-		  <h4 class="text-center down-arrow">&#x022C1;</h4>
+		  <div class="spread">
+	  		<img src="img/home/mockspread.png">
+	  	</div>
 		</div>
 
-		<section class="main-content">
-			<div class="row">
-				<div class="small-8 small-centered columns">
-					<h3 class="text-center">I've rounded 6,237 corners</h3>
-	        <p class="text-justify">But seriously, I believe there's much more to design than just soft corners and flat aesthetics. As our world becomes more digital, we have increasingly more opportunity to design products that enhance the human experience. I love to build experiences that people fall in love with. For that to happen, I've learned just how important it is to truly understand who and what you are designing for.</p>
-	      </div>
-			</div>
-
-		</section>
 		<section class="projects row">
 			<div class="small-12 columns">
-
 				<div class="row">
 					<a href="http://www.inkling.com">
 						<div class="small-12 medium-6 column">
