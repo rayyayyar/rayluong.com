@@ -165,8 +165,8 @@ nav h6 {
   border-radius: .26rem;
 }
 
-.brief {
-  margin-bottom: 9rem;
+section.overview {
+  padding-bottom: 120px;
 }
 
 .project .image {
@@ -178,6 +178,17 @@ nav h6 {
   height: 900px;
   padding-top: 20%;
 }
+
+/* ~~~~~~~~~~ TEMPLATES - DATAPAD*/
+
+.simple-template .cover {
+  background: #0494D5;
+  h1, h4 {
+    color: $white;
+  }
+ }
+
+/* ~~~~~~~~~~ TEMPLATES - DATAPAD*/
 
 #dp-charting .cover,
 #dp-dashboarding .cover,

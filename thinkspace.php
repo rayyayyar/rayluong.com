@@ -2,8 +2,8 @@
   $project_id = "thinkspace";
   $company = "SRI International";
   $title = "Thinkspace";
-  $next_project = "Age of Waste Illustration";
-  $next_project_address = "ageofwaste";
+  $next_project = "Inkling Analytics";
+  $next_project_address = "inkling";
   $columns = "8";
   include 'project-template.php' ?>
 
