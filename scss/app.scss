@@ -37,34 +37,49 @@ h6 {
 /* ~~~~~~~~~~ HOMEPAGE */
 
 #home .projects .row {
-  margin: 24rem 0;
-}
-
-#home .cover h3 {
-  font-family: $font-family-monospace;
-}
-
-#home .cover * {
-  color: white;
+  margin: 16rem 0;
 }
 
 #home .cover {
   padding: 15%;
   position: relative;
+  overflow-x: hidden;
+}
+
+#home .cover h1 {
+    color: $white;  
+}
+
+#home .cover h3 {
+  font-family: $font-family-monospace;
+  color: $white;
 }
 
 #home .cover .spread {
-  margin-top: 10%;
   position: absolute;
   bottom: 0;
-  left: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1650px;
 }
 
-.project img {
-  box-shadow: 0px 2px 3px 2px rgba(0,0,0, 0.05);
-  border: 1px solid #eee;
-  border-radius: .26rem;
+#home .cover {
+  background: #3B3D47;
+  color: #ffffff;
 }
+
+/* ~~~~~~~~~~ HOMEPAGE - PROJECTS LIST*/
+
+#home .projects .row img {
+  width: 240px;
+  box-shadow: 0px 2px 3px 2px rgba(0,0,0, 0.05);
+}
+
+#home .projects .description {
+  padding-top: 48px;
+}
+
+/* ~~~~~~~~~~ HOMEPAGE - NAVIGATION*/
 
 header {
   background-color: rgba(255,255,255,0.95);
@@ -143,6 +158,13 @@ nav h6 {
   margin-top: 0;
 }
 
+/* ~~~~~~~~~~ PROJECTS */
+.project img {
+  box-shadow: 0px 2px 3px 2px rgba(0,0,0, 0.05);
+  border: 1px solid #eee;
+  border-radius: .26rem;
+}
+
 .brief {
   margin-bottom: 9rem;
 }
@@ -155,11 +177,6 @@ nav h6 {
 .cover {
   height: 900px;
   padding-top: 20%;
-}
-
-#home .cover {
-  background: #3B3D47;
-  color: #ffffff;
 }
 
 #dp-charting .cover,
@@ -264,8 +281,11 @@ hr {
   margin-top: 3rem;
 }
 
+
+/* ~~~~~~~~~~ FOOTER */
 footer {
-  margin: 1rem 0 6rem 0;
+  height: 36px;
+  margin: 30px 0;
 }
 
 /* code for animated blinking cursor */
@@ -277,7 +297,7 @@ footer {
     -ms-animation: blink 0.7s infinite;
     -o-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
-    color: $primary-color;
+    color: #1FE6CD;
 }
 @keyframes blink {
     0% { opacity:1; }

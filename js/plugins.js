@@ -20,11 +20,7 @@ $(document).ready(function() {
 	    backSpeed: 30,
 	    loop: false,
 	    // defaults to false for infinite loop
-	    loopCount: false,
-	    callback: function(){ 
-	    	$('.typed-cursor').fadeOut('fast'); 
-	    	$('h4.down-arrow').delay(800).fadeTo('slow', 0.6); },
-	    resetCallback: function() { newTyped(); }
+	    loopCount: false
 	});
 
 	$(".reset").click(function(){
@@ -34,15 +30,14 @@ $(document).ready(function() {
 	function newTyped(){ /* A new typed object */ }
 	function foo(){ console.log("Callback"); }
 
+/*
 // WAYPOINT
 	$('.projects a').hide();
 	$('.projects .row').waypoint(function(direction) { 
 		$(this).find('a').fadeIn('slow');
 	}, { offset: '60%' });
 
-	$('.main-content').waypoint(function(direction) {
-		$('.cover').find('.down-arrow').fadeOut('slow');
-	}, { offset: '90%' });
+*/
 
 // FLUIDBOX
 	$('a').fluidbox( {
