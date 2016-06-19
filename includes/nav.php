@@ -9,7 +9,7 @@
     </ul>
     <section class="top-bar-section">
       <ul class="right">
-        <li class="active"><a href="/">Projects</a></li>
+        <li class="active"><a href="/#projects">Projects</a></li>
         <li><a href="docs/RayLuong-Resume.pdf">Resume</a></li>
       </ul>
     </section>

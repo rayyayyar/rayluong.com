@@ -1,5 +1,7 @@
-  <footer class="text-center tm">
+  <div class="row text-center tm">
+  	<div>
       <small class="light-text">2016<br />♥️, Ray</small>
-  </footer>
+     </div>
+  </div>
 </body>
 </html>

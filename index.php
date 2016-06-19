@@ -15,7 +15,7 @@ $cover_style = "dark-cover";?>
 	  	</div>
 		</div>
 
-		<section class="projects row">
+		<section id="projects" class="projects row">
 			<div class="small-8 small-centered columns">
 				<h1 class="large-type text-center row">Projects</h1>
 
