@@ -11,13 +11,9 @@ ul a li {
 }
 
 h1.large-type {
-  font-size: 6rem;
+  font-size: 5rem;
   font-weight: bold;
   letter-spacing: -3px;
-}
-
-h3 {
-  font-family: $font-family-serif;
 }
 
 h6 {
@@ -161,12 +157,11 @@ nav h6 {
 /* ~~~~~~~~~~ PROJECTS */
 .project img {
   box-shadow: 0px 2px 3px 2px rgba(0,0,0, 0.05);
-  border: 1px solid #eee;
   border-radius: .26rem;
 }
 
-section.overview {
-  padding-bottom: 120px;
+.main-content section {
+  padding: 60px 0 120px 0;
 }
 
 .project .image {
@@ -179,16 +174,31 @@ section.overview {
   padding-top: 20%;
 }
 
-/* ~~~~~~~~~~ TEMPLATES - DATAPAD*/
+/* ~~~~~~~~~~ TEMPLATES - SIMPLE */
 
 .simple-template .cover {
-  background: #0494D5;
+  background: $design-highlight;
   h1, h4 {
     color: $white;
   }
  }
 
-/* ~~~~~~~~~~ TEMPLATES - DATAPAD*/
+section.design-highlight.dark-bg {
+  background: #3B3D47;
+}
+
+section.grey-bg {
+  background: #F2F2F6;
+}
+
+section.design-highlight {
+  background: $design-highlight;
+  * {
+    color: $white;
+  }
+}
+
+/* ~~~~~~~~~~ TEMPLATES - DATAPAD */
 
 #dp-charting .cover,
 #dp-dashboarding .cover,

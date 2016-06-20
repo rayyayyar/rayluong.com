@@ -14,12 +14,10 @@
       </div>
     </div>
 
-    <div class="row main-content">
-      <div class="small-<?php echo $columns ?> small-centered columns">
+    <div class="main-content small-centered">
         <?php startblock('main') ?>
         <?php endblock() ?>
         <hr />
-      </div>
     </div>
 
     <footer>
