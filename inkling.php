@@ -242,6 +242,4 @@ that would help users grasp a high level overview before diving into details.</p
   		</div>
   	</div>
   </section>
-
-
 <?php endblock() ?>
