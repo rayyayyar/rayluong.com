@@ -214,5 +214,34 @@ that would help users grasp a high level overview before diving into details.</p
   	</div>
   </section>
 
+  <section>
+  	<div class="row small-centered text-center">
+  		<h1 class="large-type">Date selection</h1>
+  		<p>Users also needed a quick and easy way to choose dates or a date range. This concept includes a fast way to select common ranges like the “last 7 days.”</p>
+  	</div>
+  	<div class="row small-centered text-center">
+  		<a href="img/inkling/date-filter.png" data-fluidbox><img src="img/inkling/date-filter.png" alt="Date filter" title="Date filter" /></a>
+  	</div>
+  </section>
+  <section class="design-highlight">
+  	<div class="row small-centered">
+  		<h1 class="large-type text-left">Continued Work</h1>
+  	</div>
+  	<div class="row small-centered">
+  		<div class="medium-4 column">
+  			<h4>Future Opportunities</h4>
+  			<p>We’re still learning about the user’s evolving data needs and how Inkling fits into their business intelligence strategy. Our sales teams and customers success teams are working with prospects and customers to evaluate their data needs.</p>
+  		</div>
+  		<div class="medium-4 column">
+  			<h4>Evolving Metrics</h4>
+  			<p>As customers gain more users and more data, different metrics become more valuable. Search metrics, for example, will let content creators know what unwritten topics are most desired. </p>
+  		</div>
+  		<div class="medium-4 column">
+  			<h4>Improving the Process</h4>
+  			<p>This unique and challenging project gave us insight into how to design data products for our customers. While not perfect, we now understand the importance of data prototyping early with sample data.</p>
+  		</div>
+  	</div>
+  </section>
+
 
 <?php endblock() ?>
