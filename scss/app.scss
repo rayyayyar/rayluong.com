@@ -11,7 +11,7 @@ ul a li {
 }
 
 h1.large-type {
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: bold;
   letter-spacing: -3px;
 }
@@ -33,13 +33,14 @@ h6 {
 /* ~~~~~~~~~~ HOMEPAGE */
 
 .projects .row {
-  margin: 16rem 0;
+  margin: 9rem 0;
 }
 
 #home .cover {
   padding: 15%;
   position: relative;
   overflow-x: hidden;
+  border-bottom: 1px solid #eeeeee;
 }
 
 #home .cover h1 {
@@ -64,14 +65,28 @@ h6 {
   color: #ffffff;
 }
 
+.projects {
+  h1 {
+    letter-spacing: -2px;
+    font-weight: bold;
+  }
+  h3 {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin: 0;
+  }
+}
+
 /* ~~~~~~~~~~ HOMEPAGE - PROJECTS LIST*/
 
-#home .projects .row img {
+.projects .row img {
   width: 240px;
   box-shadow: 0px 2px 3px 2px rgba(0,0,0, 0.05);
 }
 
-#home .projects .description {
+.projects .description {
   padding-top: 48px;
 }
 
@@ -196,6 +211,31 @@ section.design-highlight {
   * {
     color: $white;
   }
+}
+
+.simple-template .callout {
+  h4 {
+    padding: 1rem;
+    background: #F9EAB2;
+    margin: 0;
+  }
+  p {
+    background: #FFF8DB;  
+    padding: 1rem;
+  }
+}
+
+.simple-template blockquote {
+  margin: 2.5rem 0 3rem 0;
+  font-size: 2rem;
+}
+
+.simple-template .row {
+  padding: 12px;
+}
+
+.simple-template h4 {
+  font-weight: bold;
 }
 
 /* ~~~~~~~~~~ TEMPLATES - DATAPAD */

@@ -10,7 +10,7 @@
 			</a>
 			<div class="small-12 medium-6 column description">
 				<h1>Inkling</h1>
-				<h4>Analytics</h4>
+				<h3>Analytics</h3>
 			</div>
 		</div>
 
@@ -22,7 +22,7 @@
 			</a>
 			<div class="small-12 medium-6 column description">
 				<h1>DataPad</h1>
-				<h4>Data Visualization Tool</h4>
+				<h3>Data Visualization Tool</h3>
 			</div>
 		</div>
 
@@ -34,7 +34,7 @@
 			</a>
 			<div class="small-12 medium-6 column description">
 				<h1>DataPad</h1>
-				<h4>Business Dashboard Tool</h4>
+				<h3>Business Dashboard Tool</h3>
 			</div>
 		</div>
 
@@ -46,7 +46,7 @@
 			</a>
 			<div class="small-12 medium-6 column description">
 				<h1>Blippy</h1>
-				<h4>Video Social Network</h4>
+				<h3>Video Social Network</h3>
 			</div>
 		</div>
 
@@ -58,7 +58,7 @@
 			</a>
 			<div class="small-12 medium-6 column description">
 				<h1>Thinkspace</h1>
-				<h4>iPad App for HS Biology</h4>
+				<h3>iPad App for HS Biology</h3>
 			</div>
 		</div>
 
