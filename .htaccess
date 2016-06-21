@@ -2,9 +2,9 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
-AuthUserFile /home/protected/.htpasswd
+AuthUserFile /fs3e/rayluong/public/.htpasswd
 AuthType Basic
-AuthName "Password Protected"
+AuthName "restricted area"
 
 <Files "inkling.php">
   Require valid-user
