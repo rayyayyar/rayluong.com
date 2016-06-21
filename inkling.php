@@ -18,7 +18,7 @@
 
       <div class="small-12 medium-4 column">
         <h6>Role</h6>
-        <p>As the product designer on this project, I worked closely with a product manager, product researcher, and engineer on the project from beginning to end. I was responsible for design principles, early concepts, interaction details, and visual design.</p>
+        <p>As the product designer on this project, I worked closely with a product manager, product researcher, and engineer. I was responsible for design principles, early concepts, interaction details, and visual design.</p>
       </div>
 
       <div class="small-12 medium-4 column">
@@ -31,7 +31,7 @@
   <section class="design-highlight">
   		<div class="row column small-centered">
 	      <h1 class="text-left large-type">Design Discovery</h1>
-	      <p class="text-left">Based on what we knew about the problem, I conducted a short design sprint to explore ways to visualize metrics. This concept served as an early discussion point for design and research sessions.</p>
+	      <p class="text-left">Based on what we knew about the problem, I conducted an initial design sprint to explore ways to show meaningful metrics. This concept served as an early discussion point for design and research sessions.</p>
       </div>
       <div class="row">
         <div class="image column">
@@ -299,7 +299,7 @@
   			<p>We narrowed scope to focus on the fundamental metric of active readers. Every customer has this data and would benefit from it either as a new customer or a long standing one.</p>
   		</div>
   		<div class="medium-4 column">
-  			<h4>Group by custom dimensions</h4>
+  			<h4>Group by custom data</h4>
   			<p>Across almost all customers, we heard a consistent need to compare activity across different groups of people. Many wanted to group by: geography, role, and department. </p>
   		</div>
   		<div class="medium-4 column">
@@ -329,8 +329,8 @@
   	</div>
   </section>
   <section class="design-highlight">
-  	<div class="row small-centered">
-  		<h1 class="large-type text-left">Continued Work</h1>
+  	<div class="row small-centered text-left">
+  		<h1 class="large-type">Continued Work</h1>
   	</div>
   	<div class="row small-centered">
   		<div class="medium-4 column">
