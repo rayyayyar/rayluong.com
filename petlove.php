@@ -495,7 +495,7 @@
       </a>
     </div>
     <div class="row">
-      <ul data-orbit data-options="animation:fade; autoplay:false; animation_speed:200;">
+      <ul data-orbit data-options="animation:fade; autoplay:false; animation_speed:200;timer:false;">
         <li data-orbit-slide="output-1">
           <img src="img/petlove/design/sketch00.jpg" alt="Pet Love Design Sketch" title="Design Output" />
           <div class="orbit-caption">
@@ -564,7 +564,7 @@
   <div class="row">
     <p><strong>Our story starts here.</strong> Liz has always wanted a dog, but never had the right living situation. Now that she and her boyfriend are in a larger apartment that allows dogs, she’s looking for one to adopt. She starts on PetLove to take her first step in the adoption process.</p>
     <h3>Info gathering</h3>
-    <ul data-orbit data-options="animation:fade; autoplay:false;animation_speed:200;">
+    <ul data-orbit data-options="animation:fade; autoplay:false;animation_speed:200;timer:false;">
       <li data-orbit-slide="output-1">
         <img src="img/petlove/design/A00.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
@@ -609,7 +609,7 @@
   <!-- WIREFRAME RESULTS -->
   <div class="row">
     <h3>The Search (results)</h3>
-    <ul data-orbit data-options="animation:fade;autoplay:false;animation_speed:200;">
+    <ul data-orbit data-options="animation:fade;autoplay:false;animation_speed:200;timer:false;">
       <li data-orbit-slide="output-1">
         <img src="img/petlove/design/B00.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
@@ -649,7 +649,7 @@
   <!-- WIREFRAME PET PROFILE -->
   <div class="row">
     <h3>The Search (pet profile)</h3>
-    <ul data-orbit data-options="animation:fade;autoplay:false;animation_speed:200;">
+    <ul data-orbit data-options="animation:fade;autoplay:false;animation_speed:200;timer:false;slide_number:false;">
       <li data-orbit-slide="output-1">
         <img src="img/petlove/design/C00.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
