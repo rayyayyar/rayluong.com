@@ -495,7 +495,7 @@
       </a>
     </div>
     <div class="row">
-      <ul data-orbit data-options="animation:fade; autoplay:false;">
+      <ul data-orbit data-options="animation:fade; autoplay:false; animation_speed:200;">
         <li data-orbit-slide="output-1">
           <img src="img/petlove/design/sketch00.jpg" alt="Pet Love Design Sketch" title="Design Output" />
           <div class="orbit-caption">
@@ -564,7 +564,7 @@
   <div class="row">
     <p><strong>Our story starts here.</strong> Liz has always wanted a dog, but never had the right living situation. Now that she and her boyfriend are in a larger apartment that allows dogs, she’s looking for one to adopt. She starts on PetLove to take her first step in the adoption process.</p>
     <h3>Info gathering</h3>
-    <ul data-orbit data-options="animation:fade; autoplay:false;">
+    <ul data-orbit data-options="animation:fade; autoplay:false;animation_speed:200;">
       <li data-orbit-slide="output-1">
         <img src="img/petlove/design/A00.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
@@ -598,7 +598,7 @@
             Asking these types of questions not only helps make better suggestions, but helps Liz set up expectations for care commitment.
         </div>
       </li>
-      <li data-orbit-slide="output-6">
+      <li data-orbit-slide="output-7">
         <img src="img/petlove/design/A06.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
             A last question asks about general lifestyle on the weekend to gauge how active she is.
@@ -609,7 +609,7 @@
   <!-- WIREFRAME RESULTS -->
   <div class="row">
     <h3>The Search (results)</h3>
-    <ul data-orbit data-options="animation:fade;">
+    <ul data-orbit data-options="animation:fade;autoplay:false;animation_speed:200;">
       <li data-orbit-slide="output-1">
         <img src="img/petlove/design/B00.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
@@ -649,7 +649,7 @@
   <!-- WIREFRAME PET PROFILE -->
   <div class="row">
     <h3>The Search (pet profile)</h3>
-    <ul data-orbit data-options="animation:fade;">
+    <ul data-orbit data-options="animation:fade;autoplay:false;animation_speed:200;">
       <li data-orbit-slide="output-1">
         <img src="img/petlove/design/C00.png" alt="Pet Love Design A" title="Design Output" />
         <div class="orbit-caption">
@@ -697,7 +697,7 @@
   <div class="row">
     <h2>Design changes and scoping</h2>
     <ul>
-      <strong>Initial questionnaire should ask only key questions.</strong> Questions borrowed from Reddit’s breed questionnaire, but slimmed it down to key questions. Doing so prevents frustrating the user from going through a long survey-like experience. Asking key questions, however, helps the system gather enough data to make better suggestions (like OkCupid).<br/><br/>
+      <strong>Initial questionnaire should ask only key questions.</strong> Questions borrowed from Reddit’s <a href="https://www.reddit.com/r/dogs/comments/4qc6lb/meta_breed_questionnaire_updated_june_2016/">breed questionnaire</a>, but slimmed it down to key questions. Doing so prevents frustrating the user from going through a long survey-like experience. Asking key questions, however, helps the system gather enough data to make better suggestions (like OkCupid).<br/><br/>
       <strong>Only request signup when necessary.</strong> As I sketched out the flow, I later realized signup isn’t necessary right off the bat. Allpaws does a successful job with this by letting users go through a search and only ask for login/signup when users actually need a login for features like favoriting.<br/><br/>
       <strong>Show why a pet result is a good match.</strong> Borrowing from OkCupid, I noticed how helpful it would be in the flow to show why a pet was a good match. I emphasized this later in the designs by using iconography and labels to indicate attributes that matched an adopter’s preferences.<br/><br/>
       <strong>Less emphasis on sharing a favorites list or search alerts.</strong> With time as constraint, I decided to scope out collaborative features. From the research, it seemed like most of the process was led by one person and any collaboration was simply a conversation.<br/><br/>
@@ -722,7 +722,7 @@
   <div class="row">
     <div class="medium-12 column">
         <a href="img/petlove/design/hifi/04.png" data-fluidbox><img src="img/petlove/design/hifi/04.png" title="" /></a>
-        <p><em>Liz can access her favorites list at any point in the experience so she can easily call shelters to check if animals are still active.</em></p>
+        <p><em>Liz accesses her favorites list at any point in the experience so she can easily call shelters to check if animals are still active.</em></p>
     </div>
   </div>
   <div class="row">
@@ -735,7 +735,7 @@
   <div class="row">
     <div class="medium-4 column">
         <a href="img/petlove/design/hifi/05.png" data-fluidbox><img src="img/petlove/design/hifi/05.png" title="" /></a>
-        <p><em>Once at each shelter, Liz can access the mobile version of PetLove to see which of her favorite pets are there.</em></p>
+        <p><em>Once at each shelter, Liz accesses the mobile version of PetLove to see which of her favorite pets are there.</em></p>
     </div>
 
     <div class="medium-4 column">
@@ -748,26 +748,24 @@
 
   </section>
 
-<section>
-  <div class="row column small-centered">
-      <h1 class="text-left large-type">Retrospective</h1>
-  </div>
-  <div class="row">
-  <ul>
-    <strong>As a potential user, this tool would make my adoption process easier.</strong>
-    <p>If I were adopting for the first time, I think I would love to use a tool pe this. PetLove walks me through the entire process from what my preferences are, to search, and post-adoption tips. </p>
-    
-    <strong>The final output isn’t perfect.</strong>
-    <p>There are some assumptions I’m making about how useful the initial questionnaire is. We’re optimizing for the persona of a young individual who’s adopting for the first time. If it were someone who knew exactly what they wanted, they would pely prefer to jump straight to a database of pets and start filtering. What’s missing from the design is some way to visually distinguish pets I’ve seen versus pets I haven’t. This is especially important when I return after a search alert emails me. I’m also very curious about what other data we could use to better match a pet with an owner. </p>
-    
-    <strong>There’s potential opportunity for research and better design.</strong>
-    <p>This design focused more on the info gathering steps of the adoption process. Another problem area discovered in research was physical travel to many shelters. The main goal for Jenn was to see pet behavior and interaction before adopting. There’s opportunity here to provide that information earlier on so that people like Jenn don’t have to spend valuable time traveling when they don’t need to. Another thing I’d like to explore is how important a shelter profile is. In some of the competitive analysis, I noticed shelter profiles help adopters understand more about specific adoption policies and show other pets available at the shelter. My initial guess is that this would only be important if adoption policies vary widely between shelters. It would also be important to have for people who care deeply about the mission of a shelter (e.g. Pit Bull focused shelters).Thirdly, there is still a huge opportunity in educating the user about pets, care, and the adoption process. This was sprinkled throughout the design, both at the beginning when we show more about the breeds during the questionnaire or at the end when we teach users how to care for their pet from day 1. However, much more can be done to teach users about the differences between pet types and what those differences mean for care and commitment</p>
-    
-    <strong>I learned a few things in the process of going through this exercise.</strong>
-    <p>Because this was a fairly new domain for me — I’ve never adopted — I felt it was especially important to conduct real user research by calling some friends. It was also a great opportunity to catch up with some old pals! In any case, I learned that there’s a deep community in the world of animals and pets. The biggest opportunity I see is leveraging the community to help more animals get adopted and adopters to be better owners. Curating data about breeds, individual behavior and history, photos, shelter information and matching with owner lifestyle/needs will greatly improve the adoption process.</p>
-  </ul>
-      </div>
-    </section>
+  <section>
+    <div class="row column small-centered">
+        <h1 class="text-left large-type">Retrospective</h1>
+    </div>
+    <div class="row">
+      <strong>As a potential user, this tool would make my adoption process easier.</strong>
+      <p>If I were adopting for the first time, I think I would love to use a tool pe this. PetLove walks me through the entire process from what my preferences are, to search, and post-adoption tips. </p>
+      
+      <strong>The final output isn’t perfect.</strong>
+      <p>There are some assumptions I’m making about how useful the initial questionnaire is. We’re optimizing for the persona of a young individual who’s adopting for the first time. If it were someone who knew exactly what they wanted, they would pely prefer to jump straight to a database of pets and start filtering. What’s missing from the design is some way to visually distinguish pets I’ve seen versus pets I haven’t. This is especially important when I return after a search alert emails me. I’m also very curious about what other data we could use to better match a pet with an owner. </p>
+      
+      <strong>There’s potential opportunity for research and better design.</strong>
+      <p>This design focused more on the info gathering steps of the adoption process. Another problem area discovered in research was physical travel to many shelters. The main goal for Jenn was to see pet behavior and interaction before adopting. There’s opportunity here to provide that information earlier on so that people like Jenn don’t have to spend valuable time traveling when they don’t need to. Another thing I’d like to explore is how important a shelter profile is. In some of the competitive analysis, I noticed shelter profiles help adopters understand more about specific adoption policies and show other pets available at the shelter. My initial guess is that this would only be important if adoption policies vary widely between shelters. It would also be important to have for people who care deeply about the mission of a shelter (e.g. Pit Bull focused shelters).Thirdly, there is still a huge opportunity in educating the user about pets, care, and the adoption process. This was sprinkled throughout the design, both at the beginning when we show more about the breeds during the questionnaire or at the end when we teach users how to care for their pet from day 1. However, much more can be done to teach users about the differences between pet types and what those differences mean for care and commitment</p>
+      
+      <strong>I learned a few things in the process of going through this exercise.</strong>
+      <p>Because this was a fairly new domain for me — I’ve never adopted — I felt it was especially important to conduct real user research by calling some friends. It was also a great opportunity to catch up with some old pals! In any case, I learned that there’s a deep community in the world of animals and pets. The biggest opportunity I see is leveraging the community to help more animals get adopted and adopters to be better owners. Curating data about breeds, individual behavior and history, photos, shelter information and matching with owner lifestyle/needs will greatly improve the adoption process.</p>
+    </div>
+  </section>
 
 
   

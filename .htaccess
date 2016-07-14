@@ -10,3 +10,6 @@ AuthName "restricted area"
   Require valid-user
 </Files>
 
+<Files "petlove.php">
+  Require valid-user
+</Files>
