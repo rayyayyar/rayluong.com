@@ -223,9 +223,18 @@ section.design-highlight {
     background: #F9EAB2;
     margin: 0;
   }
-  p {
+  p, ul {
     background: #FFF8DB;  
     padding: 1rem;
+  }
+  li {
+    text-indent: none;
+    list-style: none;
+    padding: 12px 0;
+    border-bottom: 1px solid #F9EAB2;
+  }
+  li:first-of-type {
+    padding-top: 0;
   }
 }
 
@@ -244,6 +253,14 @@ section.design-highlight {
 
 .orbit-container .orbit-slides-container li:not(.active) img {
   box-shadow: none;
+}
+
+#petlove .orbit-container .orbit-slides-container img {
+  border: 1px solid #eee;
+}
+
+#petlove p {
+  margin-top: 12px;
 }
 
 /* ~~~~~~~~~~ TEMPLATES - DATAPAD */
@@ -357,8 +374,20 @@ hr {
   margin: 30px 0;
 }
 
+#footer ul li img {
+  box-shadow: none;
+  border-radius: 0;
+}
+
 #footer li {
   display: inline;
+  margin-right: 18px;
+  -webkit-transition: -webkit-transform 2s ease;
+  transform: scale(1);
+}
+
+#footer li:hover {
+  transform: scale(1.2);
 }
 
 /* code for animated blinking cursor */
