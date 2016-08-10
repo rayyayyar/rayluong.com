@@ -36,7 +36,7 @@
       	</div>
       	<div class="medium-4 column">
       		<h4>I looked at Reddit questions about pet adoption</h4>
-      		<p>Redditors adopting dogs or cats cared about common factors like which breeds are social and time commitment. One user wanted to gather advice on how to care for a dog while in college living with roommates. I came upon a questionnaire on Reddit that helped people determine what breed was right for them.</p>
+      		<p>Redditors adopting dogs or cats cared about common factors like which breeds are social and time commitment. One user wanted to gather advice on how to care for a dog while in college living with roommates. I also found a questionnaire on Reddit that helped people determine what breed was right for them.</p>
       	</div>
         <div class="medium-4 column">
           <h4>I Googled potential search terms for pet adoption</h4>
@@ -110,16 +110,13 @@
             <li>Generally like the above, but doesn’t have to make decisions with a significant other.</li>
             <li>Doesn’t have a lot of time on the weekends, but is home on weeknights.</li>
             <li>Typically lives in an apartment in a large city.</li>
-            <li>Other</li>
           </ul>
 
 
       
-          <h4>Older individuals</h4>
+          <h4>Other</h4>
           <ul>
-            <li>Looking for companionship after children recently moved out</li>
-            <li>A lot of time</li>
-            <li>Not super physical</li>
+            <li>Older individuals looking for companionship after children recently moved out. Typically a lot of time, not super physical.</li>
             <li>Individuals looking for emotional support (service animals)</li>
             <li>Work animals (conservation work, law enforcement, guard)</li>
           </ul>
@@ -129,7 +126,7 @@
 
       <div class="row">
         <div class="medium-8 column">
-          <h2>Factors considered during pet search</h2>
+          <h2>Factors in a Pet Search</h2>
           <h4>The owner’s attributes</h4>
           <ul>
             <li>Location: Urban, suburban, or rural, hot, cold?</li>
@@ -160,10 +157,10 @@
 
       <div class="row">
         <div class="medium-8 column">
-          <h2>Typical timeline and problems</h2>
+          <h2>Typical Timeline and <em>Problems</em></h2>
           <ol>
             <li>Intent to adopt a pet</li>
-            <li>Decide on pet attributes (individually or with others). <em>Disagreements about pet preferences and responsibilities.</em></li>
+            <li>Decide on pet attributes (individually or with others). <em>Couples may disagree about pet preferences and responsibilities.</em></li>
             <li>Gather information about pet preferences and limitations. <em>Don’t know where to best look. There’s a lot of information and don't know what to expect.</em></li>
             <li>Gather info about how and where to adopt. <em>In more populated cities, shelters are abundant.</em></li>
             <li>Pet hunting, primarily online. <em>Photos of the pets are not always representative or useful. No way to get a sense of behavior until meeting.</em></li>
@@ -184,7 +181,7 @@
           <ul>
             <li>A lot of initial decisions need to be made about pet type and commitment</li>
             <li>Can take anywhere from days to months.</li>
-            <li>Online searches (e.g. petfinder) is not always reliable.</li>
+            <li>Online searches (e.g. petfinder) are not always reliable.</li>
             <li>Photos are not representative.</li>
             <li>The animal may be gone when you get there.</li>
             <li>Physically going to shelters to see the animal is time consuming.</li>
@@ -376,7 +373,6 @@
             <li>Real estate: location based search results.</li>
             <li>You enter in a few key points of data and the system returns a bunch of results.</li>
             <li>Then you wade through the data with filters, photos, and location pins.</li>
-            <li>Location based results.</li>
           </ul>
         </div>
       </div>
@@ -437,8 +433,8 @@
 
         <strong>The Search</strong>
         <ol>
-          <li>Based on her responses, PetLove shows Liz a list of relevant pets that are up for adoption. She browses through the list to ‘favorite’ ones she likes (based on breed and looks preferences).</li>
-          <li>After about 20 minutes of this, she shares the favorites list with her boyfriend Jon, who can also add to the list.</li>
+          <li>Based on her responses, PetLove shows Liz a list of relevant pets that are up for adoption. She browses through the list to ‘favorite’ ones she likes (based on breed,looks, preferences).</li>
+          <li>After spending time to favorite pets, she shares the favorites list with her boyfriend Jon, who can also add to the list.</li>
           <li>She plans to go pet shopping over the weekend, but until then, she sets up search alerts that will let her know when new animals become available for adoption during the week.</li>
           <li>Liz adds Jon to the search alerts so that both of them can get updates on new animal matches.</li>
           <li>Liz and Jon are notified about several new dogs up for adoption. </li>
@@ -460,7 +456,7 @@
   <section>
     <div class="row column small-centered">
       <h1 class="text-left large-type">Sketches</h1>
-      <p class="text-left">After defining the problem space and exploring the possible design directions through questions, analogies, and story outlining, I spent some time sketching to explore both concepts for info gathering and a rough flow.</p>
+      <p class="text-left">After defining the problem space and exploring the possible design directions through questions, analogies, and story outlining, I spent some time sketching to explore both concepts for info gathering as well as a rough flow based on the user story.</p>
     </div>
     <div class="row">
       <a data-orbit-link="output-1">

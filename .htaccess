@@ -6,10 +6,3 @@ AuthUserFile /fs3e/rayluong/public/.htpasswd
 AuthType Basic
 AuthName "restricted area"
 
-<Files "inkling.php">
-  Require valid-user
-</Files>
-
-<Files "petlove.php">
-  Require valid-user
-</Files>

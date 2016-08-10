@@ -10,7 +10,8 @@
     <section class="top-bar-section">
       <ul class="right">
         <li class="active"><a href="/#projects">Projects</a></li>
-        <li><a href="docs/RayLuong-Resume.pdf">Resume</a></li>
+        <li><a href="https://medium.com/me/stories/public" target="_blank">Writing</a></li>
+        <li><a href="docs/RayLuong-Resume.pdf" target="_blank">Resume</a></li>
       </ul>
     </section>
   </nav>
