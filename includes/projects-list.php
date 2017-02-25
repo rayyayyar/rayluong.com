@@ -13,7 +13,17 @@
 				<h3>Analytics for Content</h3>
 			</div>
 		</div>
-
+		<div class="row small-centered">
+			<a href="https://rayyayyar.github.io/bart-flow/">
+				<div class="small-12 medium-6 column">
+					<img src="img/home/bartflow-thumb.png">
+				</div>
+			</a>
+			<div class="small-12 medium-6 column description">
+				<h1>BART Flow</h1>
+				<h3>D3 Experiment w/ BART Data</h3>
+			</div>
+		</div>
 		<div class="row small-centered">
 			<a href="datapad-charting">
 				<div class="small-12 medium-6 column">
@@ -47,18 +57,6 @@
 			<div class="small-12 medium-6 column description">
 				<h1>Blippy</h1>
 				<h3>Video Social Network</h3>
-			</div>
-		</div>
-
-		<div class="row small-centered">
-			<a href="thinkspace">
-				<div class="small-12 medium-6 column">
-					<img src="img/home/thinkspace-thumb.png">
-				</div>
-			</a>
-			<div class="small-12 medium-6 column description">
-				<h1>Thinkspace</h1>
-				<h3>iPad App for HS Biology</h3>
 			</div>
 		</div>
 

@@ -10,7 +10,7 @@
 			</a>
 			<div class="small-12 medium-6 column description">
 				<h1>Inkling</h1>
-				<h3>Analytics</h3>
+				<h3>Analytics For Content</h3>
 			</div>
 		</div>
 

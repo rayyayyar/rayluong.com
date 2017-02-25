@@ -14,7 +14,7 @@
   		</a>
   	</ul>
   	<div>
-      <small class="light-text">2016<br />♥️, Ray</small>
+      <small class="light-text">2017<br />♥️, Ray</small>
     </div>
   </div>
 </body>
