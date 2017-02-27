@@ -20,7 +20,7 @@
 				</div>
 			</a>
 			<div class="small-12 medium-6 column description">
-				<h1>BART Flow</h1>
+				<h1>Transit Flow</h1>
 				<h3>D3 Experiment w/ BART Data</h3>
 			</div>
 		</div>
