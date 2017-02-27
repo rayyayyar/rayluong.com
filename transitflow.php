@@ -16,7 +16,7 @@
         <h6>Tools</h6>
         <p>HTML/CSS, JS, d3.js, <a href="http://www.bart.gov/about/reports/ridership">BART ridership data</a>, Sketch</p>
         <h6>Project Home</h6>
-        <p><a href="rayyayyar.github.io/bart-flow/">rayyayyar.github.io/bart-flow/</a>
+        <p><a href="rayyayyar.github.io/bart-flow/">rayyayyar.github.io/bart-flow/</a></p>
 
       </div>
 
@@ -32,6 +32,7 @@
       <h3 class="text-center">Visualizing BART Ridership Data</h3>
       <p>This project began as a desire to tell a narrative about the city around me. So much of our surroundings, relationships, and interactions go unnoticed even though we experience them everyday. I think the way people interact with urban infrastructure can be at the heart of these stories.</p>
       <p>As cities continue to grow and think about what smart, sustainable development means, it seems especially important to look at issues from both a quantitative data lens as well as a human narrative.</p>
+      <p><a href="rayyayyar.github.io/bart-flow/">View the project in browser</a></p>
 
     </section>
     <section>

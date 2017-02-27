@@ -14,7 +14,7 @@
 			</div>
 		</div>
 		<div class="row small-centered">
-			<a href="https://rayyayyar.github.io/bart-flow/">
+			<a href="transitflow">
 				<div class="small-12 medium-6 column">
 					<img src="img/home/bartflow-thumb.png">
 				</div>
