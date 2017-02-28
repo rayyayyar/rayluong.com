@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+AuthUserFile /fs3e/rayluong/public/.htpasswd
+AuthType Basic
+AuthName "restricted area"
+
+<Files "inkling.php">
+  Require valid-user
+</Files>
+
+ErrorDocument 401 /index.php

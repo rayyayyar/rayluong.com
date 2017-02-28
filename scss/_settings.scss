@@ -87,9 +87,9 @@ $include-html-global-classes: $include-html-classes;
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // We use these to define default font stacks
- $font-family-sans-serif: "Open Sans", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+ $font-family-sans-serif: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
  $font-family-serif: Georgia, Cambria, "Times New Roman", Times, serif;
-// $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace;
+ $font-family-monospace: "Andale Mono", Consolas, "Liberation Mono", Courier, monospace;
 
 // We use these to define default font weights
 // $font-weight-normal: normal !default;
@@ -97,6 +97,7 @@ $include-html-global-classes: $include-html-classes;
 
 // We use these as default colors throughout
  $primary-color: #008CBA;
+ $design-highlight: #0494D5;
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
@@ -118,7 +119,7 @@ $include-html-global-classes: $include-html-classes;
 // $monsoon     : #777777;
 // $steel       : #666666;
 // $charcoal    : #555555;
- $tuatara     : #444444;
+ $tuatara     : #3B3D47;
  $oil         : #333333;
 // $jet         : #222222;
 // $black       : #000000;
@@ -198,7 +199,7 @@ $include-html-global-classes: $include-html-classes;
 // $header-font-family: $header-font-family;
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
-// $header-font-color: $jet;
+$header-font-color: $tuatara;
 // $header-line-height: 1.4;
  $header-top-margin: 3rem;
  $header-bottom-margin: 1.0rem;
@@ -234,7 +235,7 @@ $include-html-global-classes: $include-html-classes;
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
 // $paragraph-font-weight: $font-weight-normal;
-// $paragraph-font-size: 1rem;
+$paragraph-font-size: 1.0;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: rem-calc(20);
 // $paragraph-aside-font-size: rem-calc(14);
@@ -884,7 +885,7 @@ $include-html-global-classes: $include-html-classes;
 // $orbit-caption-height: auto;
 
 // We use these to control the left/right nav styles
-// $orbit-nav-bg: transparent;
+$orbit-nav-bg: rgba(0,0,0,0.3);
 // $orbit-nav-bg-hover: rgba(0,0,0,0.3);
 // $orbit-nav-arrow-color: $white;
 // $orbit-nav-arrow-color-hover: $white;

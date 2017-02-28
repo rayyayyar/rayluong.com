@@ -14,18 +14,13 @@ $(document).ready(function() {
 
 	$("#typed").typed({
 	    strings: [
-	    "Hello!^400 Name's Ray. ^1000",
-	    "I'm a designer in San Francisco today. ^1000 Come to see my work?"],
-	    typeSpeed: 20,
+	    "I’m some guy working as a product designer in the Bay Area. ^1000 This is my story. ^600 Okay...^1000 it’s just my design portfolio."],
+	    typeSpeed: 10,
 	    backDelay: 100,
 	    backSpeed: 30,
 	    loop: false,
 	    // defaults to false for infinite loop
-	    loopCount: false,
-	    callback: function(){ 
-	    	$('.typed-cursor').fadeOut('fast'); 
-	    	$('h4.down-arrow').delay(800).fadeTo('slow', 0.6); },
-	    resetCallback: function() { newTyped(); }
+	    loopCount: false
 	});
 
 	$(".reset").click(function(){
@@ -35,15 +30,14 @@ $(document).ready(function() {
 	function newTyped(){ /* A new typed object */ }
 	function foo(){ console.log("Callback"); }
 
+/*
 // WAYPOINT
 	$('.projects a').hide();
 	$('.projects .row').waypoint(function(direction) { 
 		$(this).find('a').fadeIn('slow');
 	}, { offset: '60%' });
 
-	$('.main-content').waypoint(function(direction) {
-		$('.cover').find('.down-arrow').fadeOut('slow');
-	}, { offset: '90%' });
+*/
 
 // FLUIDBOX
 	$('a').fluidbox( {
