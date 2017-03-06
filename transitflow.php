@@ -32,7 +32,7 @@
       <h3 class="text-center">Visualizing BART Ridership Data</h3>
       <p>This project began as a desire to tell a narrative about the city around me. So much of our surroundings, relationships, and interactions go unnoticed even though we experience them everyday. I think the way people interact with urban infrastructure can be at the heart of these stories.</p>
       <p>As cities continue to grow and think about what smart, sustainable development means, it seems especially important to look at issues from both a quantitative data lens as well as a human narrative.</p>
-      <p><a href="https://rayyayyar.github.io/bart-flow/">View the project in browser</a></p>
+      <p><a href="https://rayyayyar.github.io/bart-flow/">View the project in browser</a> (requires desktop Chrome)</p>
 
     </section>
     <section>
@@ -65,6 +65,11 @@
           <a href="img/transitflow/transitflow04.gif" data-fluidbox><img src="img/transitflow/transitflow04.gif" alt="" title="" /></a>
           <div class="caption large-3"><strong>Seeing the concept first come to life </strong>was better than any snake game ever.</div>
         </div>
+      </div>
+    </section>
+    <section>
+      <div class="row">
+      <p>Transit Flow was featured in <a href="https://www.citylab.com/commute/2017/03/bay-area-bart-traffic-gets-a-arty-vizualization/518376/">The Atlantic's City Lab</a>, a publication focused on stories about the cities of the future — and those who want to live there.</p>
       </div>
     </section>
 <?php endblock() ?>
